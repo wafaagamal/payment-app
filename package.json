@@ -1,0 +1,19 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^2.19.0",
+    "braintree-web": "^3.50.1",
+    "express": "^4.17.1",
+    "paypal-checkout": "^4.0.284",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
